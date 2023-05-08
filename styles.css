@@ -41,19 +41,17 @@ body {
 .photo-wrapper {
     background-color: white;
     width: 100%;
+    height: 50vh;
 }
 .photo-container {
-   
     max-width: 700px;
     margin: 0 auto;
-    height: 50vh;
+    
 }
 
 .photo-container h2 {
     text-align: center;
-   
-   padding: 30px;
-    
+    padding: 30px;
     color: #1F2937;
 
 }
@@ -81,9 +79,43 @@ body {
 }
 
 .photo-block {
-    
+    color: #3882F6;
     width: 100px;
     height: 150px;
+}
+
+.quote-wrapper {
+    background-color: #e5e7eb;
+    width: 100%;
+    height: 50vh;
+}
+
+.quote-container {
+    max-width: 450px;
+    height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+blockquote {
+    margin: 0;
+    font-size: 24px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin-top: 60px;
+}
+
+.quote-container p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1F2937;
+    margin: 0 0 60px 200px;
+
 }
 
 ul {
