@@ -1,30 +1,26 @@
 body {
     margin: 0;
     padding: 0;
-    max-width: 900px;
-    margin: 0 auto;
     background-color: #1F2937;
 }
 
 .hero-container{
     color: white;
-    
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .hero {
     display: flex;
     gap: 30px;
-    height: 60vh;
+    height: 50vh;
 }
 
-.hero-text {
+.hero-text, .beer-flight {
     width: 430px;
     height: 200px;
 }
-.beer-flight {
-    width: 430px;
-    height: 200px;
-}
+
 .hero-text h1 {
     font-size: 48px;
     font-weight:bolder;
@@ -42,6 +38,53 @@ body {
     border-radius: 4px;
 }
 
+.photo-wrapper {
+    background-color: white;
+    width: 100%;
+}
+.photo-container {
+   
+    max-width: 700px;
+    margin: 0 auto;
+    height: 50vh;
+}
+
+.photo-container h2 {
+    text-align: center;
+   
+   padding: 30px;
+    
+    color: #1F2937;
+
+}
+
+.photo-block p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.block-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    
+}
+
+.beer {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.photo-block {
+    
+    width: 100px;
+    height: 150px;
+}
 
 ul {
    list-style-type: none; 
